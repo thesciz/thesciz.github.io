@@ -20,5 +20,25 @@ body {
 }
 
 #content section {
-  padding: 2rem;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+}
+
+.exposition { 
+  font-style: italic;
+  margin: 0 1rem;
+}
+
+.imgLink {
+  text-align: center;
+}
+
+.imgLink img {
+  max-width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .imgLink img {
+    max-width: 100%;
+  }
 }
