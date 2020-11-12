@@ -37,6 +37,12 @@ body {
   max-width: 50%;
 }
 
+@media screen and (min-width: 1200px) {
+  #content {
+    margin: 0 15rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .imgLink img {
     max-width: 100%;
